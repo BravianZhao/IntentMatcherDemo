@@ -1,4 +1,4 @@
-要想使用隐式 Intent 成功启动 Activity， 必须保证 Intent 中 action、category、data 的设置和要启动的 Activity 的 IntentFilter 相匹配。
+要想使用隐式 Intent 成功启动 Activity， 必须保证 Intent 中 action、category、data 的设置和要启动的 Activity 的 IntentFilter 相匹配。这是一个 Intent 和 IntentFilter 匹配规则演示的小案例。
 
 ### Intent 和 IntentFilter 的使用方法：
 

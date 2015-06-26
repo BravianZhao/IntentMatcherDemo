@@ -2,7 +2,7 @@
 
 ### Intent 和 IntentFilter 的使用方法：
 
-1. IntentFilter 中可以设置上的 1-n 个 action、0-n 个 category、0-n 个data
+1. IntentFilter 中可以设置上的 1-n 个 action、1-n 个 category、0-n 个data
 2. Intent 上可以设置 0-1个 action、0-n 个 category、0-1 个 data
 3. IntentFilter 上的 data 节点上可以设置 scheme、host、port、path、mimetype 等等
 4. Intent 上可以使用 Uri 设置 data，使用字符串设置 mimetype
